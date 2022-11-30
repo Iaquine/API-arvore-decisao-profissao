@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  api-sentimentos:
+    container_name: qual-a-minha-profissao
+    image: qual-a-minha-profissao
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./service:/code/service
+    networks:
+      - backend
+    ports:
+      - 9000:9000 #porta no container e na máquina host
+
+networks:
+  backend:
+    driver: bridge
