@@ -1,4 +1,4 @@
-# api-Should-I-go
+# api-arvore-decisao-profissao
 
 Projeto que sobe um Container e, neste, uma API RESTful com o Swagger
 
@@ -103,10 +103,5 @@ Instruções adicionais podem ser encontrados na [Apresentação Swagger](https:
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Autores
-
-* **Patrick Luiz** - *Trabalho inicial*
-* **Iaquine** - *Finalização*
 
 ## Exemplo de template copiado de: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
